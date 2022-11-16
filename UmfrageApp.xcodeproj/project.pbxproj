@@ -13,6 +13,11 @@
 		EDA4A55D2924E7EC00ED2DA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA4A55B2924E7EC00ED2DA0 /* Main.storyboard */; };
 		EDA4A55F2924E7ED00ED2DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA4A55E2924E7ED00ED2DA0 /* Assets.xcassets */; };
 		EDA4A5622924E7ED00ED2DA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA4A5602924E7ED00ED2DA0 /* LaunchScreen.storyboard */; };
+		EDA4A56A292522D900ED2DA0 /* Frage1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4A569292522D900ED2DA0 /* Frage1ViewController.swift */; };
+		EDA4A57629252A7100ED2DA0 /* Frage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4A57529252A7100ED2DA0 /* Frage2ViewController.swift */; };
+		EDA4A57829252A8300ED2DA0 /* Frage3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4A57729252A8300ED2DA0 /* Frage3ViewController.swift */; };
+		EDA4A57A29252A9400ED2DA0 /* Frage4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4A57929252A9400ED2DA0 /* Frage4ViewController.swift */; };
+		EDA4A57C29252AA300ED2DA0 /* Frage5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA4A57B29252AA300ED2DA0 /* Frage5ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		EDA4A55E2924E7ED00ED2DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDA4A5612924E7ED00ED2DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDA4A5632924E7ED00ED2DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA4A569292522D900ED2DA0 /* Frage1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frage1ViewController.swift; sourceTree = "<group>"; };
+		EDA4A57529252A7100ED2DA0 /* Frage2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frage2ViewController.swift; sourceTree = "<group>"; };
+		EDA4A57729252A8300ED2DA0 /* Frage3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frage3ViewController.swift; sourceTree = "<group>"; };
+		EDA4A57929252A9400ED2DA0 /* Frage4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frage4ViewController.swift; sourceTree = "<group>"; };
+		EDA4A57B29252AA300ED2DA0 /* Frage5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frage5ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +69,15 @@
 				EDA4A5552924E7EC00ED2DA0 /* AppDelegate.swift */,
 				EDA4A5572924E7EC00ED2DA0 /* SceneDelegate.swift */,
 				EDA4A5592924E7EC00ED2DA0 /* ViewController.swift */,
+				EDA4A57B29252AA300ED2DA0 /* Frage5ViewController.swift */,
+				EDA4A57929252A9400ED2DA0 /* Frage4ViewController.swift */,
+				EDA4A57729252A8300ED2DA0 /* Frage3ViewController.swift */,
+				EDA4A57529252A7100ED2DA0 /* Frage2ViewController.swift */,
 				EDA4A55B2924E7EC00ED2DA0 /* Main.storyboard */,
 				EDA4A55E2924E7ED00ED2DA0 /* Assets.xcassets */,
 				EDA4A5602924E7ED00ED2DA0 /* LaunchScreen.storyboard */,
 				EDA4A5632924E7ED00ED2DA0 /* Info.plist */,
+				EDA4A569292522D900ED2DA0 /* Frage1ViewController.swift */,
 			);
 			path = UmfrageApp;
 			sourceTree = "<group>";
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDA4A57629252A7100ED2DA0 /* Frage2ViewController.swift in Sources */,
+				EDA4A56A292522D900ED2DA0 /* Frage1ViewController.swift in Sources */,
+				EDA4A57829252A8300ED2DA0 /* Frage3ViewController.swift in Sources */,
 				EDA4A55A2924E7EC00ED2DA0 /* ViewController.swift in Sources */,
 				EDA4A5562924E7EC00ED2DA0 /* AppDelegate.swift in Sources */,
+				EDA4A57A29252A9400ED2DA0 /* Frage4ViewController.swift in Sources */,
+				EDA4A57C29252AA300ED2DA0 /* Frage5ViewController.swift in Sources */,
 				EDA4A5582924E7EC00ED2DA0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
